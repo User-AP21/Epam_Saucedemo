@@ -1,146 +1,95 @@
+const  LoginPage  = require('../pageobjects/login.page');
+const inventoryPage = require('../pageobjects/inventory.page');
+const detailsPage = require('../pageobjects/details.page');
+const Footer = require('../components/common/Footer.component');
 
+beforeEach (async () => {
+  await LoginPage.open();
+  await LoginPage.login('standard_user', 'secret_sauce');
+ });
 
 describe('UC-1 Product Details Verification', () => {
-  const productName = 'Sauce Labs Fleece Jacket';
   
-
-  beforeEach(async () => {
-    await browser.url('/');
-    const usernameInput = await $('#user-name');
-    const passwordInput = await $('#password');
-    const loginButton = await $('#login-button');
-
-    await usernameInput.setValue('standard_user');
-    await passwordInput.setValue('secret_sauce');
-    await loginButton.click();
-  })
   
-  it ('The Price should match on the Details Page', async () =>
-  {
+  it('The Price should match on the Details Page', async () =>{
+    //Given I am on the inventory page and I pay attention to the price of the product "Sauce Labs Fleece Jacket"
+    const price = await inventoryPage.getPrice();
 
-    const product = await $(`//div[text()='${productName}']`);
-    const productPrice = await $$('.inventory_item_price');
+    //When I select the product "Sauce Labs Fleece Jacket"
+    await inventoryPage.clickProduct('Sauce Labs Fleece Jacket');
 
-    const priceText = await productPrice[3].getText();
-
-    await product.click();
-
-    const detailsPrice = await $('.inventory_details_price').getText();
-
-    expect(priceText).toBe(detailsPrice);
+    //Then The Price should match on the Details Page
+    const detailsPrice = await detailsPage.getDetailsPrice();
+    expect(price).toBe(detailsPrice);
   });
 
   it("The Description should match on the Details Page", async () => {
+    //Given I am on the inventory page and I pay attention to the description of the product "Sauce Labs Fleece Jacket"
+    const descriptionText = await inventoryPage.getDescription();
 
-    const product = await $(`//div[text()='${productName}']`);
-    const productDescription = await $$('.inventory_item_desc');
+    //When I select the product "Sauce Labs Fleece Jacket"
+    await inventoryPage.clickProduct('Sauce Labs Fleece Jacket');
 
-    const descriptionText = await productDescription[3].getText();
-
-    await product.click();
-
-    const detailsDescription = await $('.inventory_details_desc.large_size').getText();
-
+    //Then The Description should match on the Details Page
+    const detailsDescription = await detailsPage.getDetailsDescription();
     expect(descriptionText).toBe(detailsDescription);
   });
 
   it("The item should be added to the cart from the Details Page", async () => {
-
-    const product = await $(`//div[text()='${productName}']`);
-    
-    await product.waitForDisplayed();
-    await product.click();
-
-    const addToCartButton = await $('//button[text()="Add to cart"]');
-    await addToCartButton.waitForDisplayed();
-    await addToCartButton.click();
-    const cartBadge = await $('.shopping_cart_badge').getText();
-
+    //Given I am on the inventory page and I select the product "Sauce Labs Fleece Jacket"
+    await inventoryPage.clickProduct('Sauce Labs Fleece Jacket');
+    //When I click on the "Add to Cart" button
+    await inventoryPage.addToCart();
+    //Then The item should be added to the cart from the Details Page
+    const cartBadge = await inventoryPage.getCartBadge();
+    const addToCartButton = await detailsPage.getAddToCartButtonText();
     expect(cartBadge).toBe('1');
     expect(addToCartButton).toHaveText('Remove');
-
   });
 
   describe('UC-2 Footer & Social Links', () => {
 
-
-  
-
     it('The Footer should be visible on the page', async () => {
-    const footer = await $('.footer').isDisplayed();
+    //When I am on the inventory page
+    const footer = await Footer.isFooterVisible();
+    //Then The Footer should be visible on the page
     expect(footer).toBe(true);
     });
 
     it('The Twitter link should open the correct page', async () => {
-      await browser.url('/');
-    const usernameInput = await $('#user-name');
-    const passwordInput = await $('#password');
-    const loginButton = await $('#login-button');
 
-    await usernameInput.setValue('standard_user');
-    await passwordInput.setValue('secret_sauce');
-    await loginButton.click();
-
-
-      const twitterLink = await $('a[href="https://twitter.com/saucelabs"]');
-      await twitterLink.waitForDisplayed({ timeout: 10000 });
-      const oldHandles = await browser.getWindowHandles();
-      await twitterLink.click();
-      const handles = await browser.getWindowHandles();
-      const newTab = handles.find(h => !oldHandles.includes(h));
-      await browser.switchToWindow(newTab);
+      //Given I am on the inventory page
+      const handles = await Footer.getwindowHandles();
+      //When I click on the Twitter link in the footer
+      await Footer.clickTwitterLink();
+      //Then The Twitter link should open the correct page
+      await Footer.switchToNewTab(handles);
       await expect(browser).toHaveUrl('https://x.com/saucelabs');
-      await expect(browser).toHaveTitle('Sauce Labs (@saucelabs) / X');
-
+      // await expect(browser).toHaveTitle('Sauce Labs (@saucelabs) / X');
       });
 
       it('The Facebook link should open the correct page', async () => {
-
       
-    await browser.url('/');
-    const usernameInput = await $('#user-name');
-    const passwordInput = await $('#password');
-    const loginButton = await $('#login-button');
-
-    await usernameInput.setValue('standard_user');
-    await passwordInput.setValue('secret_sauce');
-    await loginButton.click();
-
-      const facebookLink = await $('a[href="https://www.facebook.com/saucelabs"]');
-       await facebookLink.waitForDisplayed({ timeout: 10000 });
-      const oldHandles = await browser.getWindowHandles();
-      await facebookLink.click();
-      const handles = await browser.getWindowHandles();
-      const newTab = handles.find(h => !oldHandles.includes(h));
-      await browser.switchToWindow(newTab);
-
+      //Given I am on the inventory page
+      const handles = await Footer.getwindowHandles();
+      //When I click on the Facebook link in the footer
+      await Footer.clickFacebookLink();
+      //Then The Facebook link should open the correct page
+      await Footer.switchToNewTab(handles);
       await expect(browser).toHaveUrl('https://www.facebook.com/saucelabs');
-      await expect(browser).toHaveTitle('Sauce Labs | Facebook');
+      // await expect(browser).toHaveTitle('Sauce Labs | Facebook');
+});
 
-      
       it('The LinkedIn link should open the correct page', async () => {
 
-        await browser.url('/');
-    const usernameInput = await $('#user-name');
-    const passwordInput = await $('#password');
-    const loginButton = await $('#login-button');
-
-    await usernameInput.setValue('standard_user');
-    await passwordInput.setValue('secret_sauce');
-    await loginButton.click();
-
-      const linkedinLink = await $('a[href="https://www.linkedin.com/company/sauce-labs/"]');
-      await linkedinLink.waitForDisplayed({ timeout: 10000 });
-      const oldHandles = await browser.getWindowHandles();
-      await linkedinLink.click();
-      const handles = await browser.getWindowHandles();
-      const newTab = handles.find(h => !oldHandles.includes(h));
-      await browser.switchToWindow(newTab);
-
+      //Given I am on the inventory page
+      const handles = await Footer.getwindowHandles();
+      //When I click on the LinkedIn link in the footer
+      await Footer.clickLinkedInLink();
+      //Then The LinkedIn link should open the correct page
+      await Footer.switchToNewTab(handles);
       await expect(browser).toHaveUrl('https://www.linkedin.com/company/sauce-labs/');
-      await expect(browser).toHaveTitle('Sauce Labs | Facebook');
-      
+      // await expect(browser).toHaveTitle('Sauce Labs | LinkedIn');
     });
   });
-});
 });

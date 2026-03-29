@@ -55,11 +55,14 @@ exports.config = {
     capabilities: [
     {
         browserName: 'firefox',
-        maxInstances: 1
+        maxInstances: 1,
+        'moz:firefoxOptions': {
+          args: ['-headless']
+        }
     }, 
     {
         browserName: 'safari',
-        maxInstances: 1
+        maxInstances: 1,
     },{
         browserName: 'chrome',
         maxInstances: 1,
@@ -68,7 +71,7 @@ exports.config = {
             '--disable-save-password-bubble',
             '--disable-notifications',
             '--disable-features=PasswordLeakDetection,SafeBrowsingPasswordCheck',
-            //'--headless=new',
+            '--headless=new',
         ],
         prefs: {
             // These 4 keys are the "Off Switches" for the Password Manager
