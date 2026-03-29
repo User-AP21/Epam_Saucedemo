@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" errors="0" skipped="0">
+  <testsuite name="UC 1 Product Details Verification" timestamp="2026-03-29T17:12:07" time="9.351" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="UC-1 Product Details Verification"/>
+      <property name="capabilities" value="firefox.149_0.mac"/>
+      <property name="file" value="file://./src/tests/specs/inventory.e2e.js"/>
+    </properties>
+    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification" name="The Price should match on the Details Page" time="0.982">
+      <system-out><![CDATA[
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/2298c1db-73b9-46f7-b4a3-f7ef2722aa0c/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/2298c1db-73b9-46f7-b4a3-f7ef2722aa0c/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f5ff771a-8eb5-483c-9928-9eb07a2a1417/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f5ff771a-8eb5-483c-9928-9eb07a2a1417/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/0e00a248-1ab9-445c-ad65-b2af714d7733/click - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/a6bcaad5-b85a-4bf6-adef-8fd8484945ec/text - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/d0c3ff3a-1612-404c-ab28-3e95bdac6641/click - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/4b5fa158-629b-4f4d-a1d3-f7d790a187c3/text - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification" name="The Description should match on the Details Page" time="0.261">
+      <system-out><![CDATA[
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/0511dc28-e94c-4571-b6c0-782cd03e7b63/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/0511dc28-e94c-4571-b6c0-782cd03e7b63/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/2d4d785e-1bb9-4a1a-ad89-ee041eaccbf2/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/2d4d785e-1bb9-4a1a-ad89-ee041eaccbf2/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/9547d8d5-7b35-4f65-9d70-8fa2fb474738/click - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/878638b3-5045-4ef9-a053-6dbf4e29ea8c/text - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/fa9c9bf3-d1fe-48b2-9107-8874b6dc0f4d/click - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/ff61721f-f6ab-4ea3-87af-603689008c5b/text - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification" name="The item should be added to the cart from the Details Page" time="0.288">
+      <system-out><![CDATA[
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/ebc0ec98-077e-4c22-9c11-4e1e94a5b479/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/ebc0ec98-077e-4c22-9c11-4e1e94a5b479/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/a2be4896-0ac5-4edb-a891-1c156d0e87fd/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/a2be4896-0ac5-4edb-a891-1c156d0e87fd/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/1eb8e557-82be-4b8d-9b58-02e0bc8c45d1/click - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/42922ca9-3f8a-4ad6-804d-c9c1a94c0a6c/click - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/2d2da369-63a1-441f-bf44-c1f9282e8505/click - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/89811048-7ff6-4125-b679-f429b66b6230/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/2d2da369-63a1-441f-bf44-c1f9282e8505/text - {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="UC 2 Footer Social Links" timestamp="2026-03-29T17:12:09" time="7.818" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="UC-2 Footer &amp; Social Links"/>
+      <property name="capabilities" value="firefox.149_0.mac"/>
+      <property name="file" value="file://./src/tests/specs/inventory.e2e.js"/>
+    </properties>
+    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Footer should be visible on the page" time="0.166">
+      <system-out><![CDATA[
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/6a3ec181-2a5d-4c91-8bea-14b65703fee9/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/6a3ec181-2a5d-4c91-8bea-14b65703fee9/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/2347aea2-f249-4603-a6f8-dc57d195f1a5/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/2347aea2-f249-4603-a6f8-dc57d195f1a5/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/8d92d89b-ea14-439e-86e8-96049dac2144/click - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/2d2da369-63a1-441f-bf44-c1f9282e8505/text - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/565af25f-ce3a-4dd2-8a74-2827f961b498/text - {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Twitter link should open the correct page" time="4.067">
+      <system-out><![CDATA[
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/8a46bd3a-f436-4d50-b5b7-e43adedc21bf/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/8a46bd3a-f436-4d50-b5b7-e43adedc21bf/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/2cbcd4eb-e25a-4a24-9cd7-ea2156ae740a/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/2cbcd4eb-e25a-4a24-9cd7-ea2156ae740a/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/c3379fe8-7a59-4a16-bdbf-dbc9c4b89aee/click - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/565af25f-ce3a-4dd2-8a74-2827f961b498/text - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/565af25f-ce3a-4dd2-8a74-2827f961b498/text - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/c138dab3-8cf0-4ea7-b22e-da29eb47ada1/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/c138dab3-8cf0-4ea7-b22e-da29eb47ada1/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/5605e836-f402-4654-85e2-cb043d128471/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/5605e836-f402-4654-85e2-cb043d128471/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f9f485ac-2cb7-49e9-ac6c-e2a85c1f526e/click - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/8a519e21-d059-41dc-966f-c57b42c51ed2/click - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/window - {"handle":"49263c98-6641-417c-b26b-77766501cf8e"}
+RESULT: {"handle":"49263c98-6641-417c-b26b-77766501cf8e"}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/url - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/url - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/url - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/url - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/url - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/url - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/url - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/url - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/url - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Facebook link should open the correct page" time="3.583">
+      <system-out><![CDATA[
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/eb6f79ea-d9a8-4bf1-9dce-36b3c465ba12/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/eb6f79ea-d9a8-4bf1-9dce-36b3c465ba12/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/20ac1ecc-27ac-4541-a049-aad7bf87ea81/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/20ac1ecc-27ac-4541-a049-aad7bf87ea81/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/ebd65ab4-76fa-4142-b101-450ca0ce0b00/click - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/661ad26b-ccc6-4b8c-a9a4-2010f345d2da/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/661ad26b-ccc6-4b8c-a9a4-2010f345d2da/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/8b270d24-90cb-4af7-82ca-6efd19e955be/clear - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/8b270d24-90cb-4af7-82ca-6efd19e955be/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/47d52a82-1876-4759-8fe8-eb2b41d19036/click - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/9e28e5d8-c4a8-43c4-9437-ec2e271470db/click - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/window - {"handle":"3f50f9d1-eeac-481a-9aed-75c4c0074df6"}
+RESULT: {"handle":"3f50f9d1-eeac-481a-9aed-75c4c0074df6"}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/url - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/url - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/url - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/url - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: DELETE /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4 - {}
+COMMAND: GET /session/8327f6d3-2396-49e5-bd30-13fb6da3f8a4/element/f10e7af3-e7bd-4d0c-a595-60b4845ea763/text - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

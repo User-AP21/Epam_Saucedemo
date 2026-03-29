@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="0" skipped="0">
+  <testsuite name="My Login application" timestamp="2026-03-26T23:41:59" time="2.375" tests="1" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Login application"/>
+      <property name="capabilities" value="chrome.146_0_7680_165.mac"/>
+      <property name="file" value="file://./src/tests/specs/test.e2e.js"/>
+    </properties>
+    <testcase classname="chrome.146_0_7680_165.mac.My_Login_application" name="should login with valid credentials" time="2.375">
+      <failure message="expect(...).toHaveTextContaining is not a function"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/70e622fbc045e8d91ef8bff875c97a77/element/f.0C9F4C33DC694C1C9FF188AE45A0525F.d.1BDD4A7C0B257605028AD3A69B70468B.e.4/clear - {}
+RESULT: {}
+COMMAND: POST /session/70e622fbc045e8d91ef8bff875c97a77/element/f.0C9F4C33DC694C1C9FF188AE45A0525F.d.1BDD4A7C0B257605028AD3A69B70468B.e.4/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/70e622fbc045e8d91ef8bff875c97a77/element/f.0C9F4C33DC694C1C9FF188AE45A0525F.d.1BDD4A7C0B257605028AD3A69B70468B.e.5/clear - {}
+RESULT: {}
+COMMAND: POST /session/70e622fbc045e8d91ef8bff875c97a77/element/f.0C9F4C33DC694C1C9FF188AE45A0525F.d.1BDD4A7C0B257605028AD3A69B70468B.e.5/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/70e622fbc045e8d91ef8bff875c97a77/element/f.0C9F4C33DC694C1C9FF188AE45A0525F.d.1BDD4A7C0B257605028AD3A69B70468B.e.6/click - {}
+RESULT: {}
+COMMAND: DELETE /session/70e622fbc045e8d91ef8bff875c97a77 - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+TypeError: expect(...).toHaveTextContaining is not a function
+    at Context.<anonymous> (/Users/anton/TheFinalResult/src/tests/specs/test.e2e.js:11:45)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

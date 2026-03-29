@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" errors="0" skipped="0">
+  <testsuite name="UC 1 Product Details Verification" timestamp="2026-03-29T17:12:07" time="8.739" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="UC-1 Product Details Verification"/>
+      <property name="capabilities" value="safari.26_3_1.macos"/>
+      <property name="file" value="file://./src/tests/specs/inventory.e2e.js"/>
+    </properties>
+    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification" name="The Price should match on the Details Page" time="0.838">
+      <system-out><![CDATA[
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/url - {"url":"https://www.saucedemo.com/"}
+RESULT: {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#login-button"}
+RESULT: {"using":"css selector","value":"#login-button"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-5F1B4445-443C-4847-926C-8E72CF603F44/clear - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-5F1B4445-443C-4847-926C-8E72CF603F44/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-B2D006E9-48A3-4F19-A967-17399845985E/clear - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-B2D006E9-48A3-4F19-A967-17399845985E/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-CC67B61D-EE1E-4490-B222-434544E960B8/click - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
+RESULT: {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"css selector","value":".inventory_item_price"}
+RESULT: {"using":"css selector","value":".inventory_item_price"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-F86F3896-6076-4195-90B9-3F45FE0339A0/text - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-5AC222FB-92AC-4B5A-97B6-7AE4B06578CD/click - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":".inventory_details_price"}
+RESULT: {"using":"css selector","value":".inventory_details_price"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-43D39D7D-EF3D-4E98-955A-1B4F32048CC8/text - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification" name="The Description should match on the Details Page" time="0.251">
+      <system-out><![CDATA[
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/url - {"url":"https://www.saucedemo.com/"}
+RESULT: {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#login-button"}
+RESULT: {"using":"css selector","value":"#login-button"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-452EF040-EF06-43D4-A0AE-85B897D4C455/clear - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-452EF040-EF06-43D4-A0AE-85B897D4C455/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-92BE669D-DB4F-4184-AEB9-303A50FF32AC/clear - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-92BE669D-DB4F-4184-AEB9-303A50FF32AC/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-BB5D04A2-4086-4D89-86EF-8F566A17A5A7/click - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
+RESULT: {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"css selector","value":".inventory_item_desc"}
+RESULT: {"using":"css selector","value":".inventory_item_desc"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-147913B4-A59B-4FA4-9B7E-6139FEFE58BC/text - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-F396953C-91EB-4FCF-99B8-70A9D8823A25/click - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":".inventory_details_desc.large_size"}
+RESULT: {"using":"css selector","value":".inventory_details_desc.large_size"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-50F16E28-D55C-42E4-8480-1B78A8CC079E/text - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification" name="The item should be added to the cart from the Details Page" time="0.272">
+      <system-out><![CDATA[
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/url - {"url":"https://www.saucedemo.com/"}
+RESULT: {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#login-button"}
+RESULT: {"using":"css selector","value":"#login-button"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-37EB370A-E713-464B-837B-4227A6E5D1F6/clear - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-37EB370A-E713-464B-837B-4227A6E5D1F6/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-750D02D0-81BA-4C5E-9874-F6A6D9657574/clear - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-750D02D0-81BA-4C5E-9874-F6A6D9657574/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-5376D07A-EDD5-483A-8B5A-587CCAF013E1/click - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
+RESULT: {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-450477AA-0648-44A2-94D9-63F2D21376BB","ELEMENT":"node-450477AA-0648-44A2-94D9-63F2D21376BB"}]}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-450477AA-0648-44A2-94D9-63F2D21376BB","ELEMENT":"node-450477AA-0648-44A2-94D9-63F2D21376BB"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-450477AA-0648-44A2-94D9-63F2D21376BB","ELEMENT":"node-450477AA-0648-44A2-94D9-63F2D21376BB"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-450477AA-0648-44A2-94D9-63F2D21376BB","ELEMENT":"node-450477AA-0648-44A2-94D9-63F2D21376BB"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-450477AA-0648-44A2-94D9-63F2D21376BB/click - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-5DB6FC59-A26C-43A7-9243-2FB9DD0A14D5","ELEMENT":"node-5DB6FC59-A26C-43A7-9243-2FB9DD0A14D5"}]}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-5DB6FC59-A26C-43A7-9243-2FB9DD0A14D5","ELEMENT":"node-5DB6FC59-A26C-43A7-9243-2FB9DD0A14D5"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-5DB6FC59-A26C-43A7-9243-2FB9DD0A14D5","ELEMENT":"node-5DB6FC59-A26C-43A7-9243-2FB9DD0A14D5"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-5DB6FC59-A26C-43A7-9243-2FB9DD0A14D5","ELEMENT":"node-5DB6FC59-A26C-43A7-9243-2FB9DD0A14D5"}]}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-5DB6FC59-A26C-43A7-9243-2FB9DD0A14D5/click - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":".shopping_cart_badge"}
+RESULT: {"using":"css selector","value":".shopping_cart_badge"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-78BF7A93-BD96-4317-B056-70670FD5F647/text - {}
+RESULT: {}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-5DB6FC59-A26C-43A7-9243-2FB9DD0A14D5/text - {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="UC 2 Footer Social Links" timestamp="2026-03-29T17:12:08" time="7.372" tests="3" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="UC-2 Footer &amp; Social Links"/>
+      <property name="capabilities" value="safari.26_3_1.macos"/>
+      <property name="file" value="file://./src/tests/specs/inventory.e2e.js"/>
+    </properties>
+    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Footer should be visible on the page" time="0.295">
+      <system-out><![CDATA[
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/url - {"url":"https://www.saucedemo.com/"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#login-button"}
+RESULT: {"using":"css selector","value":"#login-button"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-3049F608-E84D-47AC-8B61-8CD7D38C1FCD/clear - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-3049F608-E84D-47AC-8B61-8CD7D38C1FCD/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-DE19C24A-7164-47CA-B268-8F6DD6AEACF1/clear - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-DE19C24A-7164-47CA-B268-8F6DD6AEACF1/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-EE22F6CE-A448-4A50-B3FB-AC8E768E6536/click - {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":".footer"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":".footer"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-776D740A-788F-497B-A5CF-2E93B3927295","ELEMENT":"node-776D740A-788F-497B-A5CF-2E93B3927295"}]}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-776D740A-788F-497B-A5CF-2E93B3927295","ELEMENT":"node-776D740A-788F-497B-A5CF-2E93B3927295"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-776D740A-788F-497B-A5CF-2E93B3927295","ELEMENT":"node-776D740A-788F-497B-A5CF-2E93B3927295"}]}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-5DB6FC59-A26C-43A7-9243-2FB9DD0A14D5/text - {}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-776D740A-788F-497B-A5CF-2E93B3927295","ELEMENT":"node-776D740A-788F-497B-A5CF-2E93B3927295"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+]]></system-out>
+    </testcase>
+    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Twitter link should open the correct page" time="3.594">
+      <system-out><![CDATA[
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/url - {"url":"https://www.saucedemo.com/"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#login-button"}
+RESULT: {"using":"css selector","value":"#login-button"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-01161983-EC7C-443E-AA0A-AFCF1DAB08E6/clear - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-01161983-EC7C-443E-AA0A-AFCF1DAB08E6/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-4231714C-2C77-4EBD-B8A8-016363A2C4A0/clear - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-4231714C-2C77-4EBD-B8A8-016363A2C4A0/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-A79FCF5B-3E66-4C42-83FC-F9C5759FCC6C/click - {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/url - {"url":"https://www.saucedemo.com/"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#login-button"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"#login-button"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-0690A853-6E9F-4456-B98F-1F5281B08484/clear - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-0690A853-6E9F-4456-B98F-1F5281B08484/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-86B0453C-85C6-4153-8C47-02A80537680E/clear - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-86B0453C-85C6-4153-8C47-02A80537680E/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-322640CD-E8A3-4265-8346-66B8C5DFBC74/click - {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"a[href=\"https://twitter.com/saucelabs\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"a[href=\"https://twitter.com/saucelabs\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-3633CBAC-9AFF-475D-9031-23E1C567662F","ELEMENT":"node-3633CBAC-9AFF-475D-9031-23E1C567662F"}]}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-3633CBAC-9AFF-475D-9031-23E1C567662F","ELEMENT":"node-3633CBAC-9AFF-475D-9031-23E1C567662F"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-3633CBAC-9AFF-475D-9031-23E1C567662F","ELEMENT":"node-3633CBAC-9AFF-475D-9031-23E1C567662F"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-3633CBAC-9AFF-475D-9031-23E1C567662F","ELEMENT":"node-3633CBAC-9AFF-475D-9031-23E1C567662F"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/window/handles - {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-3633CBAC-9AFF-475D-9031-23E1C567662F/click - {}
+RESULT: {}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/window - {"handle":"page-5D8690B5-B9C7-4375-94E9-C53944357A90"}
+RESULT: {"handle":"page-5D8690B5-B9C7-4375-94E9-C53944357A90"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/url - {}
+RESULT: {}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-9D856C9C-9329-43BF-BD61-E6612F6B757D/text - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/url - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/url - {}
+RESULT: {}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Facebook link should open the correct page" time="3.482">
+      <system-out><![CDATA[
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/url - {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#login-button"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"#login-button"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-E76442E1-FB6E-46BB-821E-41DD9552F0A7/clear - {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-E76442E1-FB6E-46BB-821E-41DD9552F0A7/value - {"text":"standard_user"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-26E0B6CF-75B9-40BD-BCBB-174CD465D46E/clear - {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-26E0B6CF-75B9-40BD-BCBB-174CD465D46E/value - {"text":"secret_sauce"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-6E35D9F3-F7E8-444E-BC32-881AE7ECFF99/click - {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/url - {"url":"https://www.saucedemo.com/"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-9D856C9C-9329-43BF-BD61-E6612F6B757D/text - {}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"#login-button"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"#login-button"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-8B9EE0B1-9F5E-40C4-BB7D-F59323A3AB56/clear - {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-8B9EE0B1-9F5E-40C4-BB7D-F59323A3AB56/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-0744AB0A-C8E8-45B5-92A1-12CA5B0CAE2F/clear - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-0744AB0A-C8E8-45B5-92A1-12CA5B0CAE2F/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-F0F217AA-229C-4E2C-B61C-0BB78250B619/click - {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"css selector","value":"a[href=\"https://www.facebook.com/saucelabs\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"css selector","value":"a[href=\"https://www.facebook.com/saucelabs\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-5905A7F0-EFE6-4089-A64A-871F8DB53B47","ELEMENT":"node-5905A7F0-EFE6-4089-A64A-871F8DB53B47"}]}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-5905A7F0-EFE6-4089-A64A-871F8DB53B47","ELEMENT":"node-5905A7F0-EFE6-4089-A64A-871F8DB53B47"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-5905A7F0-EFE6-4089-A64A-871F8DB53B47","ELEMENT":"node-5905A7F0-EFE6-4089-A64A-871F8DB53B47"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-5905A7F0-EFE6-4089-A64A-871F8DB53B47","ELEMENT":"node-5905A7F0-EFE6-4089-A64A-871F8DB53B47"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/window/handles - {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-5905A7F0-EFE6-4089-A64A-871F8DB53B47/click - {}
+RESULT: {}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/window - {"handle":"page-BE1111A0-0545-4468-B0A9-BE0F942F7DAC"}
+RESULT: {"handle":"page-BE1111A0-0545-4468-B0A9-BE0F942F7DAC"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/url - {}
+RESULT: {}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element/node-E3CC5C09-CAC5-4E80-822D-23160E9DAD88/text - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+RESULT: {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/title - {}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+COMMAND: DELETE /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F - {}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/F7AF2AC1-3E1C-4B13-AE55-333C00AE133F/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

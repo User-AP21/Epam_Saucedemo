@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="0" skipped="0">
+  <testsuite name="My Login application" timestamp="2026-03-26T23:42:01" time="2.481" tests="1" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Login application"/>
+      <property name="capabilities" value="firefox.149_0.mac"/>
+      <property name="file" value="file://./src/tests/specs/test.e2e.js"/>
+    </properties>
+    <testcase classname="firefox.149_0.mac.My_Login_application" name="should login with valid credentials" time="2.479">
+      <failure message="expect(...).toHaveTextContaining is not a function"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/d9bd052e-f8ef-47a4-9296-9e3f2a28ce0d/element/72c98204-c543-4ef8-9931-3ac8d1fbb6d7/clear - {}
+RESULT: {}
+COMMAND: POST /session/d9bd052e-f8ef-47a4-9296-9e3f2a28ce0d/element/72c98204-c543-4ef8-9931-3ac8d1fbb6d7/value - {"text":"tomsmith"}
+RESULT: {"text":"tomsmith"}
+COMMAND: POST /session/d9bd052e-f8ef-47a4-9296-9e3f2a28ce0d/element/d6d04df3-85f9-4182-a8c4-b940449dc7e2/clear - {}
+RESULT: {}
+COMMAND: POST /session/d9bd052e-f8ef-47a4-9296-9e3f2a28ce0d/element/d6d04df3-85f9-4182-a8c4-b940449dc7e2/value - {"text":"SuperSecretPassword!"}
+RESULT: {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/d9bd052e-f8ef-47a4-9296-9e3f2a28ce0d/element/093ae25e-4f71-4e53-9991-4f146a13e52e/click - {}
+RESULT: {}
+COMMAND: DELETE /session/d9bd052e-f8ef-47a4-9296-9e3f2a28ce0d - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+TypeError: expect(...).toHaveTextContaining is not a function
+    at Context.<anonymous> (/Users/anton/TheFinalResult/src/tests/specs/test.e2e.js:11:45)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
