@@ -1,418 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="7" failures="0" errors="0" skipped="0">
-  <testsuite name="UC 1 Product Details Verification" timestamp="2026-03-29T22:50:10" time="8.422" tests="3" failures="0" errors="0" skipped="0">
+  <testsuite name="UC 1 Product Details Verification" timestamp="2026-03-30T01:43:27" time="4.122" tests="3" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="UC-1 Product Details Verification"/>
       <property name="capabilities" value="firefox.149_0.mac"/>
       <property name="file" value="file://./src/tests/specs/inventory.e2e.js"/>
     </properties>
-    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification" name="The Price should match on the Details Page" time="0.94">
+    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification" name="The Price should match on the Details Page" time="1.048">
       <system-out><![CDATA[
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/46a997c8-32bc-41ae-9df6-fd56bbbd345d/clear - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/2e6aeb58-f0c0-4de5-91fc-8d0c1a47d05c/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/46a997c8-32bc-41ae-9df6-fd56bbbd345d/value - {"text":"standard_user"}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/2e6aeb58-f0c0-4de5-91fc-8d0c1a47d05c/value - {"text":"standard_user"}
 RESULT: {"text":"standard_user"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/4ed7e823-4c2e-448c-bfbc-93f0cfbbbbba/clear - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/5f536ce8-2f27-4088-ba6a-a99544792ff4/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/4ed7e823-4c2e-448c-bfbc-93f0cfbbbbba/value - {"text":"secret_sauce"}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/5f536ce8-2f27-4088-ba6a-a99544792ff4/value - {"text":"secret_sauce"}
 RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/ca538169-fef6-455b-83a5-d6aea3909089/click - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/6f722af9-41f2-4911-8a9b-fb0753e5e694/click - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/7f9899f7-9398-42c6-af23-60b3727e861a/text - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/07c0b40e-b6b3-4e12-9cec-9d4c5932d628/text - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/79d5a8b0-9daf-434d-bc70-4a9a736f9feb/click - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/58bc514d-860e-4b33-afef-7a2f0afbd040/click - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/6239e029-f70e-441b-8866-3f3b0acc24e4/text - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/a54e9318-c66b-4dd4-bc52-6bd92fc710eb/text - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification" name="The Description should match on the Details Page" time="0.257">
+    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification" name="The Description should match on the Details Page" time="0.281">
       <system-out><![CDATA[
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/fff1c266-40e9-44a5-a862-b0a17ca79690/clear - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/e6a8b2d0-c748-455d-b388-223eb531a96e/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/fff1c266-40e9-44a5-a862-b0a17ca79690/value - {"text":"standard_user"}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/e6a8b2d0-c748-455d-b388-223eb531a96e/value - {"text":"standard_user"}
 RESULT: {"text":"standard_user"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/f4776d14-30b6-4a04-9312-60913702c34e/clear - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/9a05d178-8dba-4bce-92f1-854a01807502/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/f4776d14-30b6-4a04-9312-60913702c34e/value - {"text":"secret_sauce"}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/9a05d178-8dba-4bce-92f1-854a01807502/value - {"text":"secret_sauce"}
 RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/4be457e7-558b-480e-ac0c-16313edc388e/click - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/aa26431f-2bd7-42bd-bf6a-e4a691b67b98/click - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/1980a980-ebc2-4246-9856-fa8662781b9e/text - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/35956f39-ba57-4c92-98b9-2a8da3e99534/text - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/301a6763-638c-485f-b2c1-c0a731fe5d49/click - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/bb6fd91f-9f1a-45d5-897d-8c6c58e9c100/click - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/1ddde573-3f53-41f8-933e-b5c7bac5c969/text - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/79d4c0ad-75dd-488a-8664-4f70bf3b8bb9/text - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification" name="The item should be added to the cart from the Details Page" time="0.298">
+    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification" name="The item should be added to the cart from the Details Page" time="0.278">
       <system-out><![CDATA[
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/e4b24c59-2aaa-4385-8275-2977d433a44b/clear - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/6614f784-f74d-4106-8bf9-a095e82facbe/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/e4b24c59-2aaa-4385-8275-2977d433a44b/value - {"text":"standard_user"}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/6614f784-f74d-4106-8bf9-a095e82facbe/value - {"text":"standard_user"}
 RESULT: {"text":"standard_user"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/71a1b753-31da-4310-92f7-60741dc970d1/clear - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/5006440a-8a00-4631-a5db-52b7415cba37/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/71a1b753-31da-4310-92f7-60741dc970d1/value - {"text":"secret_sauce"}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/5006440a-8a00-4631-a5db-52b7415cba37/value - {"text":"secret_sauce"}
 RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/77f70607-3bdd-41ea-a986-828207e10dea/click - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/82bdbe58-1456-4b5f-b5d7-60d71e65bd10/click - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/27b952fd-2c84-4ea3-a9cf-c649d50c5bad/click - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/5991b28a-32ce-4bf7-aa7a-d9dd905ef418/click - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/8ac5f85d-7728-4e8b-9d9c-31f5c50042fc/click - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/ef78760e-6896-4513-9451-f7d59da78c3e/click - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/0a7df3f2-93f8-46f7-8458-23fce1c9cfc1/text - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/33fb1a1d-2444-4b44-8e78-8a341609a5df/text - {}
+RESULT: {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/ca88cc62-811b-4d54-93ef-bc9e59b70109/text - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
   </testsuite>
-  <testsuite name="UC 2 Footer Social Links" timestamp="2026-03-29T22:50:11" time="6.924" tests="4" failures="0" errors="0" skipped="0">
+  <testsuite name="UC 2 Footer Social Links" timestamp="2026-03-30T01:43:29" time="2.515" tests="4" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="UC-2 Footer &amp; Social Links"/>
       <property name="capabilities" value="firefox.149_0.mac"/>
       <property name="file" value="file://./src/tests/specs/inventory.e2e.js"/>
     </properties>
-    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Footer should be visible on the page" time="0.122">
+    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Twitter Facebook and LinkedIn links should exist" time="0.186">
       <system-out><![CDATA[
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5d69fe54-1755-4af7-a20e-25432a7baad5/clear - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/3c194c51-0457-4771-b71d-695d9adfa2d2/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5d69fe54-1755-4af7-a20e-25432a7baad5/value - {"text":"standard_user"}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/3c194c51-0457-4771-b71d-695d9adfa2d2/value - {"text":"standard_user"}
 RESULT: {"text":"standard_user"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/7cdcb943-7bdf-49fc-931d-6fa2e5baf693/clear - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/45e7748b-21fd-4b39-bf5d-42c6f881157f/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/7cdcb943-7bdf-49fc-931d-6fa2e5baf693/value - {"text":"secret_sauce"}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/45e7748b-21fd-4b39-bf5d-42c6f881157f/value - {"text":"secret_sauce"}
 RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/42eabdd3-df74-45eb-ae01-c708a33aa743/click - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/9574cbe9-9019-49e8-b9c0-19a9a118ac6a/text - {}
-RESULT: {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/a26f930f-dd17-4887-9f52-9470855867ee/click - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Twitter link should open the correct page" time="1.759">
+    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Twitter link should open the correct page" time="0.808">
       <system-out><![CDATA[
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/547185cc-4c5d-480a-8528-004731a6f0da/clear - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/11a61dc7-cc28-40ce-8ba8-0379aea1cb0e/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/547185cc-4c5d-480a-8528-004731a6f0da/value - {"text":"standard_user"}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/11a61dc7-cc28-40ce-8ba8-0379aea1cb0e/value - {"text":"standard_user"}
 RESULT: {"text":"standard_user"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/009f6875-d00f-4678-b041-796a8e57280c/clear - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/e2e46b74-85f8-43f9-aeae-31024f7e6873/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/009f6875-d00f-4678-b041-796a8e57280c/value - {"text":"secret_sauce"}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/e2e46b74-85f8-43f9-aeae-31024f7e6873/value - {"text":"secret_sauce"}
 RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/3ab78407-fbfc-488a-95f0-9c0489775f74/click - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/9574cbe9-9019-49e8-b9c0-19a9a118ac6a/text - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/a97472e4-82a4-4e45-8c31-e7aba9b96b91/click - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/window/handles - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/window/handles - {}
 RESULT: {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/688778c4-898f-4a4a-9c13-5d4bb3e4f669/click - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/9574cbe9-9019-49e8-b9c0-19a9a118ac6a/text - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/window/handles - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5654444b-a80c-4bbe-b5bd-3e1d731aad7c/click - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/window - {"handle":"d4c8e032-30d9-4272-8354-b89b3860ea0c"}
+RESULT: {"handle":"d4c8e032-30d9-4272-8354-b89b3860ea0c"}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/window/handles - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/window - {"handle":"883ba906-45b8-4af9-b827-5215091966cd"}
-RESULT: {"handle":"883ba906-45b8-4af9-b827-5215091966cd"}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Facebook link should open the correct page" time="3.432">
+    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Facebook link should open the correct page" time="0.38">
       <system-out><![CDATA[
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/adc1a494-bb97-434d-93f1-9d2fe1de2013/clear - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/bbdf31b5-f86b-497f-9986-96547c4867ef/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/adc1a494-bb97-434d-93f1-9d2fe1de2013/value - {"text":"standard_user"}
-RESULT: {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/bbdf31b5-f86b-497f-9986-96547c4867ef/value - {"text":"standard_user"}
 RESULT: {"text":"standard_user"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/47d1ef27-3d78-42c5-a1f5-636320e22bfd/clear - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/fab96b45-42d4-484c-93ad-56e4b690d162/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/47d1ef27-3d78-42c5-a1f5-636320e22bfd/value - {"text":"secret_sauce"}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/fab96b45-42d4-484c-93ad-56e4b690d162/value - {"text":"secret_sauce"}
 RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/6631f6d8-f6d5-4ed0-8255-1a1f4dc50cd3/click - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/d4b8ab12-ec6b-449f-8af0-16a6dc0359f9/click - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/window/handles - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/window/handles - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/ea28fb8c-c99a-4f38-bcf1-c79f6f8b6936/click - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/dd169ae4-8c22-4321-a8ec-c418b0b5cfdf/click - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/window/handles - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/window/handles - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/window - {"handle":"df36dc62-04a9-43a2-bc23-a0edbe9e6c17"}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-RESULT: {"handle":"df36dc62-04a9-43a2-bc23-a0edbe9e6c17"}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/window - {"handle":"5114a88e-c2d9-408f-a8b2-e30eb9f45fce"}
+RESULT: {"handle":"5114a88e-c2d9-408f-a8b2-e30eb9f45fce"}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The LinkedIn link should open the correct page" time="1.608">
+    <testcase classname="firefox.149_0.mac.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The LinkedIn link should open the correct page" time="1.141">
       <system-out><![CDATA[
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/275acbd3-1450-4315-932b-2745743e1336/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/1e222514-c7c1-4b85-98d0-ef8a8f3efd8b/clear - {}
-RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/1e222514-c7c1-4b85-98d0-ef8a8f3efd8b/value - {"text":"standard_user"}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/275acbd3-1450-4315-932b-2745743e1336/value - {"text":"standard_user"}
 RESULT: {"text":"standard_user"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/c24f6600-a9cf-4fc7-a36d-69443caa4f38/clear - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/17efa189-f877-4f8b-bac4-48041363b46f/clear - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/c24f6600-a9cf-4fc7-a36d-69443caa4f38/value - {"text":"secret_sauce"}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/17efa189-f877-4f8b-bac4-48041363b46f/value - {"text":"secret_sauce"}
 RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/0bd6ff56-3603-4d28-a97e-0b89ce6ec6ff/click - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/05de9701-ac02-4a83-a2d6-f032d1be9489/click - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/window/handles - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/window/handles - {}
 RESULT: {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/element/215c48bf-13f9-445a-8717-3b4bbcdac16c/click - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/d500edc7-97be-4fae-b4f5-00bebd97f55b/click - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/window/handles - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/window/handles - {}
+COMMAND: POST /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/window - {"handle":"ea4a8495-b142-4510-bdbe-afc01fc1f0c5"}
+RESULT: {"handle":"ea4a8495-b142-4510-bdbe-afc01fc1f0c5"}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: POST /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/window - {"handle":"fe950992-6edb-49b0-ab62-e3c86641774e"}
-RESULT: {"handle":"fe950992-6edb-49b0-ab62-e3c86641774e"}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
+COMMAND: GET /session/04a682c2-9766-4c19-acd9-8678f30b0b8b/url - {}
 RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/url - {}
-RESULT: {}
-RESULT: {}
-COMMAND: DELETE /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22 - {}
-COMMAND: GET /session/17f9fa84-9374-4f8c-a8d2-5924b54edf22/element/5532d13d-ba05-4c85-b8b3-1c5fee626d6b/text - {}
+COMMAND: DELETE /session/04a682c2-9766-4c19-acd9-8678f30b0b8b - {}
 RESULT: {}
 ]]></system-out>
     </testcase>

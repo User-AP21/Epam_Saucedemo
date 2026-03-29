@@ -1,469 +1,407 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="7" failures="0" errors="0" skipped="0">
-  <testsuite name="UC 1 Product Details Verification" timestamp="2026-03-29T22:50:09" time="3.659" tests="3" failures="0" errors="0" skipped="0">
+  <testsuite name="UC 1 Product Details Verification" timestamp="2026-03-30T01:43:27" time="2.682" tests="3" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="UC-1 Product Details Verification"/>
       <property name="capabilities" value="safari.26_3_1.macos"/>
       <property name="file" value="file://./src/tests/specs/inventory.e2e.js"/>
     </properties>
-    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification" name="The Price should match on the Details Page" time="0.839">
+    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification" name="The Price should match on the Details Page" time="0.884">
       <system-out><![CDATA[
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {"url":"https://www.saucedemo.com/"}
 RESULT: {"url":"https://www.saucedemo.com/"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
 RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-36798839-2BC1-435B-B92C-227864F5EC61","ELEMENT":"node-36798839-2BC1-435B-B92C-227864F5EC61"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-36798839-2BC1-435B-B92C-227864F5EC61","ELEMENT":"node-36798839-2BC1-435B-B92C-227864F5EC61"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-36798839-2BC1-435B-B92C-227864F5EC61","ELEMENT":"node-36798839-2BC1-435B-B92C-227864F5EC61"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-36798839-2BC1-435B-B92C-227864F5EC61","ELEMENT":"node-36798839-2BC1-435B-B92C-227864F5EC61"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-990CB528-8F0D-4D02-A791-9C5FA1AEA1AF","ELEMENT":"node-990CB528-8F0D-4D02-A791-9C5FA1AEA1AF"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-990CB528-8F0D-4D02-A791-9C5FA1AEA1AF","ELEMENT":"node-990CB528-8F0D-4D02-A791-9C5FA1AEA1AF"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-990CB528-8F0D-4D02-A791-9C5FA1AEA1AF","ELEMENT":"node-990CB528-8F0D-4D02-A791-9C5FA1AEA1AF"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-990CB528-8F0D-4D02-A791-9C5FA1AEA1AF","ELEMENT":"node-990CB528-8F0D-4D02-A791-9C5FA1AEA1AF"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
 RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-36798839-2BC1-435B-B92C-227864F5EC61/clear - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-990CB528-8F0D-4D02-A791-9C5FA1AEA1AF/clear - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-36798839-2BC1-435B-B92C-227864F5EC61/value - {"text":"standard_user"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-990CB528-8F0D-4D02-A791-9C5FA1AEA1AF/value - {"text":"standard_user"}
 RESULT: {"text":"standard_user"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#password"}
-RESULT: {"using":"css selector","value":"#password"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-8792D656-C3B1-4395-B10D-527CF31E651E/clear - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+RESULT: {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-65852B7F-B57F-4EBC-BCDA-FD57F988D07B/clear - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-8792D656-C3B1-4395-B10D-527CF31E651E/value - {"text":"secret_sauce"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-65852B7F-B57F-4EBC-BCDA-FD57F988D07B/value - {"text":"secret_sauce"}
 RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-E450C49E-9372-474D-932E-BBADD9286FD1","ELEMENT":"node-E450C49E-9372-474D-932E-BBADD9286FD1"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-E450C49E-9372-474D-932E-BBADD9286FD1","ELEMENT":"node-E450C49E-9372-474D-932E-BBADD9286FD1"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-E450C49E-9372-474D-932E-BBADD9286FD1","ELEMENT":"node-E450C49E-9372-474D-932E-BBADD9286FD1"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-E450C49E-9372-474D-932E-BBADD9286FD1","ELEMENT":"node-E450C49E-9372-474D-932E-BBADD9286FD1"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-E450C49E-9372-474D-932E-BBADD9286FD1","ELEMENT":"node-E450C49E-9372-474D-932E-BBADD9286FD1"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-E450C49E-9372-474D-932E-BBADD9286FD1","ELEMENT":"node-E450C49E-9372-474D-932E-BBADD9286FD1"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-E450C49E-9372-474D-932E-BBADD9286FD1/click - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-C1B27ED6-B673-408A-A0BA-D36D6AC5B24B","ELEMENT":"node-C1B27ED6-B673-408A-A0BA-D36D6AC5B24B"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-C1B27ED6-B673-408A-A0BA-D36D6AC5B24B","ELEMENT":"node-C1B27ED6-B673-408A-A0BA-D36D6AC5B24B"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-C1B27ED6-B673-408A-A0BA-D36D6AC5B24B","ELEMENT":"node-C1B27ED6-B673-408A-A0BA-D36D6AC5B24B"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-C1B27ED6-B673-408A-A0BA-D36D6AC5B24B","ELEMENT":"node-C1B27ED6-B673-408A-A0BA-D36D6AC5B24B"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-C1B27ED6-B673-408A-A0BA-D36D6AC5B24B","ELEMENT":"node-C1B27ED6-B673-408A-A0BA-D36D6AC5B24B"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-C1B27ED6-B673-408A-A0BA-D36D6AC5B24B","ELEMENT":"node-C1B27ED6-B673-408A-A0BA-D36D6AC5B24B"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-C1B27ED6-B673-408A-A0BA-D36D6AC5B24B/click - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"css selector","value":".inventory_item_price"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/elements - {"using":"css selector","value":".inventory_item_price"}
 RESULT: {"using":"css selector","value":".inventory_item_price"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-2AE9B70F-DE7B-47B0-B5EF-A63E3D8336E2/text - {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-005466AF-A7F1-4A4C-9557-C8238C5BFB6D/text - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
 RESULT: {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-35DC2589-F1CB-4C5B-BB69-FE33FBC00F76","ELEMENT":"node-35DC2589-F1CB-4C5B-BB69-FE33FBC00F76"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-35DC2589-F1CB-4C5B-BB69-FE33FBC00F76","ELEMENT":"node-35DC2589-F1CB-4C5B-BB69-FE33FBC00F76"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-35DC2589-F1CB-4C5B-BB69-FE33FBC00F76","ELEMENT":"node-35DC2589-F1CB-4C5B-BB69-FE33FBC00F76"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-35DC2589-F1CB-4C5B-BB69-FE33FBC00F76","ELEMENT":"node-35DC2589-F1CB-4C5B-BB69-FE33FBC00F76"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-35DC2589-F1CB-4C5B-BB69-FE33FBC00F76/click - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-53FE5D31-B8CF-465F-AF42-5AEAE4204EA7","ELEMENT":"node-53FE5D31-B8CF-465F-AF42-5AEAE4204EA7"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-53FE5D31-B8CF-465F-AF42-5AEAE4204EA7","ELEMENT":"node-53FE5D31-B8CF-465F-AF42-5AEAE4204EA7"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-53FE5D31-B8CF-465F-AF42-5AEAE4204EA7","ELEMENT":"node-53FE5D31-B8CF-465F-AF42-5AEAE4204EA7"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-53FE5D31-B8CF-465F-AF42-5AEAE4204EA7","ELEMENT":"node-53FE5D31-B8CF-465F-AF42-5AEAE4204EA7"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-53FE5D31-B8CF-465F-AF42-5AEAE4204EA7/click - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":".inventory_details_price"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":".inventory_details_price"}
 RESULT: {"using":"css selector","value":".inventory_details_price"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-4B87BE87-30DE-4851-BF6E-8F6E6682DCA6/text - {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-2BD621BD-BA15-4D96-B585-8D0121EE0D8F/text - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification" name="The Description should match on the Details Page" time="0.243">
+    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification" name="The Description should match on the Details Page" time="0.219">
       <system-out><![CDATA[
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {"url":"https://www.saucedemo.com/"}
 RESULT: {"url":"https://www.saucedemo.com/"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
 RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D8CFEAA6-EE71-489B-A8BC-522611A402ED","ELEMENT":"node-D8CFEAA6-EE71-489B-A8BC-522611A402ED"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D8CFEAA6-EE71-489B-A8BC-522611A402ED","ELEMENT":"node-D8CFEAA6-EE71-489B-A8BC-522611A402ED"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D8CFEAA6-EE71-489B-A8BC-522611A402ED","ELEMENT":"node-D8CFEAA6-EE71-489B-A8BC-522611A402ED"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D8CFEAA6-EE71-489B-A8BC-522611A402ED","ELEMENT":"node-D8CFEAA6-EE71-489B-A8BC-522611A402ED"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-DAF4321F-7880-4534-8EE8-B01FDD3BCAA5","ELEMENT":"node-DAF4321F-7880-4534-8EE8-B01FDD3BCAA5"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-DAF4321F-7880-4534-8EE8-B01FDD3BCAA5","ELEMENT":"node-DAF4321F-7880-4534-8EE8-B01FDD3BCAA5"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-DAF4321F-7880-4534-8EE8-B01FDD3BCAA5","ELEMENT":"node-DAF4321F-7880-4534-8EE8-B01FDD3BCAA5"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-DAF4321F-7880-4534-8EE8-B01FDD3BCAA5","ELEMENT":"node-DAF4321F-7880-4534-8EE8-B01FDD3BCAA5"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
 RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-D8CFEAA6-EE71-489B-A8BC-522611A402ED/clear - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-DAF4321F-7880-4534-8EE8-B01FDD3BCAA5/clear - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-D8CFEAA6-EE71-489B-A8BC-522611A402ED/value - {"text":"standard_user"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-DAF4321F-7880-4534-8EE8-B01FDD3BCAA5/value - {"text":"standard_user"}
 RESULT: {"text":"standard_user"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#password"}
-RESULT: {"using":"css selector","value":"#password"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-6D04122F-62A5-4DD7-A84F-88D3243C93BF/clear - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+RESULT: {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-FADF0B68-81AC-484B-A1F2-552E614245C8/clear - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-6D04122F-62A5-4DD7-A84F-88D3243C93BF/value - {"text":"secret_sauce"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-FADF0B68-81AC-484B-A1F2-552E614245C8/value - {"text":"secret_sauce"}
 RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-712FD34D-4AAD-48E7-A6E8-2EFE04DC01F5","ELEMENT":"node-712FD34D-4AAD-48E7-A6E8-2EFE04DC01F5"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-712FD34D-4AAD-48E7-A6E8-2EFE04DC01F5","ELEMENT":"node-712FD34D-4AAD-48E7-A6E8-2EFE04DC01F5"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-712FD34D-4AAD-48E7-A6E8-2EFE04DC01F5","ELEMENT":"node-712FD34D-4AAD-48E7-A6E8-2EFE04DC01F5"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-712FD34D-4AAD-48E7-A6E8-2EFE04DC01F5","ELEMENT":"node-712FD34D-4AAD-48E7-A6E8-2EFE04DC01F5"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-712FD34D-4AAD-48E7-A6E8-2EFE04DC01F5","ELEMENT":"node-712FD34D-4AAD-48E7-A6E8-2EFE04DC01F5"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-712FD34D-4AAD-48E7-A6E8-2EFE04DC01F5","ELEMENT":"node-712FD34D-4AAD-48E7-A6E8-2EFE04DC01F5"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-712FD34D-4AAD-48E7-A6E8-2EFE04DC01F5/click - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-FB7B1B8A-4982-4C7B-A6A6-7EA919CCDCBF","ELEMENT":"node-FB7B1B8A-4982-4C7B-A6A6-7EA919CCDCBF"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-FB7B1B8A-4982-4C7B-A6A6-7EA919CCDCBF","ELEMENT":"node-FB7B1B8A-4982-4C7B-A6A6-7EA919CCDCBF"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-FB7B1B8A-4982-4C7B-A6A6-7EA919CCDCBF","ELEMENT":"node-FB7B1B8A-4982-4C7B-A6A6-7EA919CCDCBF"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-FB7B1B8A-4982-4C7B-A6A6-7EA919CCDCBF","ELEMENT":"node-FB7B1B8A-4982-4C7B-A6A6-7EA919CCDCBF"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-FB7B1B8A-4982-4C7B-A6A6-7EA919CCDCBF","ELEMENT":"node-FB7B1B8A-4982-4C7B-A6A6-7EA919CCDCBF"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-FB7B1B8A-4982-4C7B-A6A6-7EA919CCDCBF","ELEMENT":"node-FB7B1B8A-4982-4C7B-A6A6-7EA919CCDCBF"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-FB7B1B8A-4982-4C7B-A6A6-7EA919CCDCBF/click - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"css selector","value":".inventory_item_desc"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/elements - {"using":"css selector","value":".inventory_item_desc"}
 RESULT: {"using":"css selector","value":".inventory_item_desc"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-90D06050-BAFB-4683-8EDE-27F109F19D10/text - {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-38676137-A39C-4DD2-A671-A55D263F3945/text - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
 RESULT: {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-4DBC6A43-6DA1-47CD-A377-99B95F0BC0E1","ELEMENT":"node-4DBC6A43-6DA1-47CD-A377-99B95F0BC0E1"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-4DBC6A43-6DA1-47CD-A377-99B95F0BC0E1","ELEMENT":"node-4DBC6A43-6DA1-47CD-A377-99B95F0BC0E1"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-4DBC6A43-6DA1-47CD-A377-99B95F0BC0E1","ELEMENT":"node-4DBC6A43-6DA1-47CD-A377-99B95F0BC0E1"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-4DBC6A43-6DA1-47CD-A377-99B95F0BC0E1","ELEMENT":"node-4DBC6A43-6DA1-47CD-A377-99B95F0BC0E1"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-4DBC6A43-6DA1-47CD-A377-99B95F0BC0E1/click - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-69EA4A34-7450-4CF4-8C6D-E7DCB545AEB7","ELEMENT":"node-69EA4A34-7450-4CF4-8C6D-E7DCB545AEB7"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-69EA4A34-7450-4CF4-8C6D-E7DCB545AEB7","ELEMENT":"node-69EA4A34-7450-4CF4-8C6D-E7DCB545AEB7"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-69EA4A34-7450-4CF4-8C6D-E7DCB545AEB7","ELEMENT":"node-69EA4A34-7450-4CF4-8C6D-E7DCB545AEB7"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-69EA4A34-7450-4CF4-8C6D-E7DCB545AEB7","ELEMENT":"node-69EA4A34-7450-4CF4-8C6D-E7DCB545AEB7"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-69EA4A34-7450-4CF4-8C6D-E7DCB545AEB7/click - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":".inventory_details_desc.large_size"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":".inventory_details_desc.large_size"}
 RESULT: {"using":"css selector","value":".inventory_details_desc.large_size"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-9C95F369-F8DD-47FB-83FC-908E3E73A5BA/text - {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-58B036DF-ED83-4049-9629-FABAE0AB26D7/text - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification" name="The item should be added to the cart from the Details Page" time="0.289">
+    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification" name="The item should be added to the cart from the Details Page" time="0.255">
       <system-out><![CDATA[
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {"url":"https://www.saucedemo.com/"}
 RESULT: {"url":"https://www.saucedemo.com/"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
 RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-752343F6-B201-4209-BE2C-CBFDB16A3EE2","ELEMENT":"node-752343F6-B201-4209-BE2C-CBFDB16A3EE2"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-752343F6-B201-4209-BE2C-CBFDB16A3EE2","ELEMENT":"node-752343F6-B201-4209-BE2C-CBFDB16A3EE2"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-752343F6-B201-4209-BE2C-CBFDB16A3EE2","ELEMENT":"node-752343F6-B201-4209-BE2C-CBFDB16A3EE2"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-752343F6-B201-4209-BE2C-CBFDB16A3EE2","ELEMENT":"node-752343F6-B201-4209-BE2C-CBFDB16A3EE2"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B4A244B6-5D2B-4F37-BC22-992CE45982E7","ELEMENT":"node-B4A244B6-5D2B-4F37-BC22-992CE45982E7"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B4A244B6-5D2B-4F37-BC22-992CE45982E7","ELEMENT":"node-B4A244B6-5D2B-4F37-BC22-992CE45982E7"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B4A244B6-5D2B-4F37-BC22-992CE45982E7","ELEMENT":"node-B4A244B6-5D2B-4F37-BC22-992CE45982E7"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B4A244B6-5D2B-4F37-BC22-992CE45982E7","ELEMENT":"node-B4A244B6-5D2B-4F37-BC22-992CE45982E7"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
 RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-752343F6-B201-4209-BE2C-CBFDB16A3EE2/clear - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-B4A244B6-5D2B-4F37-BC22-992CE45982E7/clear - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-752343F6-B201-4209-BE2C-CBFDB16A3EE2/value - {"text":"standard_user"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-B4A244B6-5D2B-4F37-BC22-992CE45982E7/value - {"text":"standard_user"}
 RESULT: {"text":"standard_user"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#password"}
-RESULT: {"using":"css selector","value":"#password"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-48368E3C-C071-488E-83B6-3634A7A042E1/clear - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+RESULT: {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-6DBCEBA2-7C44-4875-8022-C44CE5FA3A91/clear - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-48368E3C-C071-488E-83B6-3634A7A042E1/value - {"text":"secret_sauce"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-6DBCEBA2-7C44-4875-8022-C44CE5FA3A91/value - {"text":"secret_sauce"}
 RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-AFEF5DFA-0248-42B0-87FF-8D5D479FF8A8","ELEMENT":"node-AFEF5DFA-0248-42B0-87FF-8D5D479FF8A8"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-AFEF5DFA-0248-42B0-87FF-8D5D479FF8A8","ELEMENT":"node-AFEF5DFA-0248-42B0-87FF-8D5D479FF8A8"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-AFEF5DFA-0248-42B0-87FF-8D5D479FF8A8","ELEMENT":"node-AFEF5DFA-0248-42B0-87FF-8D5D479FF8A8"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-AFEF5DFA-0248-42B0-87FF-8D5D479FF8A8","ELEMENT":"node-AFEF5DFA-0248-42B0-87FF-8D5D479FF8A8"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-AFEF5DFA-0248-42B0-87FF-8D5D479FF8A8","ELEMENT":"node-AFEF5DFA-0248-42B0-87FF-8D5D479FF8A8"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-AFEF5DFA-0248-42B0-87FF-8D5D479FF8A8","ELEMENT":"node-AFEF5DFA-0248-42B0-87FF-8D5D479FF8A8"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-AFEF5DFA-0248-42B0-87FF-8D5D479FF8A8/click - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-DE34D35B-C950-41D4-BF0A-4A5097E203CC","ELEMENT":"node-DE34D35B-C950-41D4-BF0A-4A5097E203CC"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-DE34D35B-C950-41D4-BF0A-4A5097E203CC","ELEMENT":"node-DE34D35B-C950-41D4-BF0A-4A5097E203CC"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-DE34D35B-C950-41D4-BF0A-4A5097E203CC","ELEMENT":"node-DE34D35B-C950-41D4-BF0A-4A5097E203CC"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-DE34D35B-C950-41D4-BF0A-4A5097E203CC","ELEMENT":"node-DE34D35B-C950-41D4-BF0A-4A5097E203CC"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-DE34D35B-C950-41D4-BF0A-4A5097E203CC","ELEMENT":"node-DE34D35B-C950-41D4-BF0A-4A5097E203CC"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-DE34D35B-C950-41D4-BF0A-4A5097E203CC","ELEMENT":"node-DE34D35B-C950-41D4-BF0A-4A5097E203CC"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-DE34D35B-C950-41D4-BF0A-4A5097E203CC/click - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
 RESULT: {"using":"xpath","value":"//div[text()='Sauce Labs Fleece Jacket']"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-0E837239-FD63-4C55-849E-45ABB9ACBD3E","ELEMENT":"node-0E837239-FD63-4C55-849E-45ABB9ACBD3E"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-0E837239-FD63-4C55-849E-45ABB9ACBD3E","ELEMENT":"node-0E837239-FD63-4C55-849E-45ABB9ACBD3E"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-0E837239-FD63-4C55-849E-45ABB9ACBD3E","ELEMENT":"node-0E837239-FD63-4C55-849E-45ABB9ACBD3E"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-0E837239-FD63-4C55-849E-45ABB9ACBD3E","ELEMENT":"node-0E837239-FD63-4C55-849E-45ABB9ACBD3E"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-0E837239-FD63-4C55-849E-45ABB9ACBD3E/click - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-6744FAF5-D0F2-429C-9920-42DF1B7937C2","ELEMENT":"node-6744FAF5-D0F2-429C-9920-42DF1B7937C2"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-6744FAF5-D0F2-429C-9920-42DF1B7937C2","ELEMENT":"node-6744FAF5-D0F2-429C-9920-42DF1B7937C2"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-6744FAF5-D0F2-429C-9920-42DF1B7937C2","ELEMENT":"node-6744FAF5-D0F2-429C-9920-42DF1B7937C2"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-6744FAF5-D0F2-429C-9920-42DF1B7937C2","ELEMENT":"node-6744FAF5-D0F2-429C-9920-42DF1B7937C2"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-6744FAF5-D0F2-429C-9920-42DF1B7937C2/click - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
 RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D68DB67D-6DFC-44A5-B6AC-56736090E23D","ELEMENT":"node-D68DB67D-6DFC-44A5-B6AC-56736090E23D"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D68DB67D-6DFC-44A5-B6AC-56736090E23D","ELEMENT":"node-D68DB67D-6DFC-44A5-B6AC-56736090E23D"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D68DB67D-6DFC-44A5-B6AC-56736090E23D","ELEMENT":"node-D68DB67D-6DFC-44A5-B6AC-56736090E23D"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D68DB67D-6DFC-44A5-B6AC-56736090E23D","ELEMENT":"node-D68DB67D-6DFC-44A5-B6AC-56736090E23D"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-D68DB67D-6DFC-44A5-B6AC-56736090E23D/click - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-BC74083B-72E5-4C2A-A0FF-8194D0ED1ED4","ELEMENT":"node-BC74083B-72E5-4C2A-A0FF-8194D0ED1ED4"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-BC74083B-72E5-4C2A-A0FF-8194D0ED1ED4","ELEMENT":"node-BC74083B-72E5-4C2A-A0FF-8194D0ED1ED4"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-BC74083B-72E5-4C2A-A0FF-8194D0ED1ED4","ELEMENT":"node-BC74083B-72E5-4C2A-A0FF-8194D0ED1ED4"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-BC74083B-72E5-4C2A-A0FF-8194D0ED1ED4","ELEMENT":"node-BC74083B-72E5-4C2A-A0FF-8194D0ED1ED4"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-BC74083B-72E5-4C2A-A0FF-8194D0ED1ED4/click - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":".shopping_cart_badge"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":".shopping_cart_badge"}
 RESULT: {"using":"css selector","value":".shopping_cart_badge"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-E5CB6720-C2C4-44FA-9A62-045717556C91/text - {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-C26AFF4C-1CE2-4D56-9892-FFCD0ADCEE8E/text - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"[class=\"btn btn_secondary btn_small btn_inventory\"]"}
+RESULT: {"using":"css selector","value":"[class=\"btn btn_secondary btn_small btn_inventory\"]"}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-8347649F-7BE4-4C46-99EE-9C151ED8CA0C/text - {}
+RESULT: {}
 ]]></system-out>
     </testcase>
   </testsuite>
-  <testsuite name="UC 2 Footer Social Links" timestamp="2026-03-29T22:50:11" time="2.287" tests="4" failures="0" errors="0" skipped="0">
+  <testsuite name="UC 2 Footer Social Links" timestamp="2026-03-30T01:43:28" time="1.322" tests="4" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="UC-2 Footer &amp; Social Links"/>
       <property name="capabilities" value="safari.26_3_1.macos"/>
       <property name="file" value="file://./src/tests/specs/inventory.e2e.js"/>
     </properties>
-    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Footer should be visible on the page" time="0.17">
+    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Twitter Facebook and LinkedIn links should exist" time="0.188">
       <system-out><![CDATA[
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {"url":"https://www.saucedemo.com/"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {"url":"https://www.saucedemo.com/"}
 RESULT: {"url":"https://www.saucedemo.com/"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
 RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-0E1B7081-F8D2-4C74-A97C-72453DA974D6","ELEMENT":"node-0E1B7081-F8D2-4C74-A97C-72453DA974D6"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-0E1B7081-F8D2-4C74-A97C-72453DA974D6","ELEMENT":"node-0E1B7081-F8D2-4C74-A97C-72453DA974D6"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-0E1B7081-F8D2-4C74-A97C-72453DA974D6","ELEMENT":"node-0E1B7081-F8D2-4C74-A97C-72453DA974D6"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-0E1B7081-F8D2-4C74-A97C-72453DA974D6","ELEMENT":"node-0E1B7081-F8D2-4C74-A97C-72453DA974D6"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B18E2495-937E-4B11-8431-E4AA6EEC07FA","ELEMENT":"node-B18E2495-937E-4B11-8431-E4AA6EEC07FA"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B18E2495-937E-4B11-8431-E4AA6EEC07FA","ELEMENT":"node-B18E2495-937E-4B11-8431-E4AA6EEC07FA"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B18E2495-937E-4B11-8431-E4AA6EEC07FA","ELEMENT":"node-B18E2495-937E-4B11-8431-E4AA6EEC07FA"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B18E2495-937E-4B11-8431-E4AA6EEC07FA","ELEMENT":"node-B18E2495-937E-4B11-8431-E4AA6EEC07FA"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
 RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-0E1B7081-F8D2-4C74-A97C-72453DA974D6/clear - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-B18E2495-937E-4B11-8431-E4AA6EEC07FA/clear - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-0E1B7081-F8D2-4C74-A97C-72453DA974D6/value - {"text":"standard_user"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-B18E2495-937E-4B11-8431-E4AA6EEC07FA/value - {"text":"standard_user"}
 RESULT: {"text":"standard_user"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#password"}
-RESULT: {"using":"css selector","value":"#password"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-407CE014-4513-420E-B131-9815699ED1D7/clear - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+RESULT: {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-487095D4-1D29-4C43-B15F-2E953869018E/clear - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-407CE014-4513-420E-B131-9815699ED1D7/value - {"text":"secret_sauce"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-487095D4-1D29-4C43-B15F-2E953869018E/value - {"text":"secret_sauce"}
 RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-1660A759-2E6D-498A-907E-7EB44360017F","ELEMENT":"node-1660A759-2E6D-498A-907E-7EB44360017F"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-1660A759-2E6D-498A-907E-7EB44360017F","ELEMENT":"node-1660A759-2E6D-498A-907E-7EB44360017F"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-1660A759-2E6D-498A-907E-7EB44360017F","ELEMENT":"node-1660A759-2E6D-498A-907E-7EB44360017F"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-1660A759-2E6D-498A-907E-7EB44360017F","ELEMENT":"node-1660A759-2E6D-498A-907E-7EB44360017F"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-1660A759-2E6D-498A-907E-7EB44360017F","ELEMENT":"node-1660A759-2E6D-498A-907E-7EB44360017F"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-1660A759-2E6D-498A-907E-7EB44360017F","ELEMENT":"node-1660A759-2E6D-498A-907E-7EB44360017F"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-1660A759-2E6D-498A-907E-7EB44360017F/click - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-51F4020A-58D4-4866-9C3A-B42A32477022","ELEMENT":"node-51F4020A-58D4-4866-9C3A-B42A32477022"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-51F4020A-58D4-4866-9C3A-B42A32477022","ELEMENT":"node-51F4020A-58D4-4866-9C3A-B42A32477022"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-51F4020A-58D4-4866-9C3A-B42A32477022","ELEMENT":"node-51F4020A-58D4-4866-9C3A-B42A32477022"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-51F4020A-58D4-4866-9C3A-B42A32477022","ELEMENT":"node-51F4020A-58D4-4866-9C3A-B42A32477022"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-51F4020A-58D4-4866-9C3A-B42A32477022","ELEMENT":"node-51F4020A-58D4-4866-9C3A-B42A32477022"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-51F4020A-58D4-4866-9C3A-B42A32477022","ELEMENT":"node-51F4020A-58D4-4866-9C3A-B42A32477022"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-51F4020A-58D4-4866-9C3A-B42A32477022/click - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":".footer"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":".footer"}
 RESULT: {"using":"css selector","value":".footer"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-63EBADF6-024F-48DD-A8ED-96962B60D8FB","ELEMENT":"node-63EBADF6-024F-48DD-A8ED-96962B60D8FB"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-63EBADF6-024F-48DD-A8ED-96962B60D8FB","ELEMENT":"node-63EBADF6-024F-48DD-A8ED-96962B60D8FB"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-63EBADF6-024F-48DD-A8ED-96962B60D8FB","ELEMENT":"node-63EBADF6-024F-48DD-A8ED-96962B60D8FB"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-63EBADF6-024F-48DD-A8ED-96962B60D8FB","ELEMENT":"node-63EBADF6-024F-48DD-A8ED-96962B60D8FB"}]}
-]]></system-out>
-    </testcase>
-    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Twitter link should open the correct page" time="1.54">
-      <system-out><![CDATA[
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {"url":"https://www.saucedemo.com/"}
-RESULT: {"url":"https://www.saucedemo.com/"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
-RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D633A044-8C32-442A-9CD3-8F237BC98438","ELEMENT":"node-D633A044-8C32-442A-9CD3-8F237BC98438"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D633A044-8C32-442A-9CD3-8F237BC98438","ELEMENT":"node-D633A044-8C32-442A-9CD3-8F237BC98438"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D633A044-8C32-442A-9CD3-8F237BC98438","ELEMENT":"node-D633A044-8C32-442A-9CD3-8F237BC98438"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D633A044-8C32-442A-9CD3-8F237BC98438","ELEMENT":"node-D633A044-8C32-442A-9CD3-8F237BC98438"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-D633A044-8C32-442A-9CD3-8F237BC98438/clear - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-D633A044-8C32-442A-9CD3-8F237BC98438/value - {"text":"standard_user"}
-RESULT: {"text":"standard_user"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#password"}
-RESULT: {"using":"css selector","value":"#password"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-F0BEB40D-B7C0-4070-B59F-E56F80F78C52/clear - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-F0BEB40D-B7C0-4070-B59F-E56F80F78C52/value - {"text":"secret_sauce"}
-RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-9B5DB0B8-01E5-441A-9555-229E373D2102","ELEMENT":"node-9B5DB0B8-01E5-441A-9555-229E373D2102"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-9B5DB0B8-01E5-441A-9555-229E373D2102","ELEMENT":"node-9B5DB0B8-01E5-441A-9555-229E373D2102"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-9B5DB0B8-01E5-441A-9555-229E373D2102","ELEMENT":"node-9B5DB0B8-01E5-441A-9555-229E373D2102"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-9B5DB0B8-01E5-441A-9555-229E373D2102","ELEMENT":"node-9B5DB0B8-01E5-441A-9555-229E373D2102"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-9B5DB0B8-01E5-441A-9555-229E373D2102","ELEMENT":"node-9B5DB0B8-01E5-441A-9555-229E373D2102"}]}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-9B5DB0B8-01E5-441A-9555-229E373D2102","ELEMENT":"node-9B5DB0B8-01E5-441A-9555-229E373D2102"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-9B5DB0B8-01E5-441A-9555-229E373D2102/click - {}
-RESULT: {}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/window/handles - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"a[href=\"https://twitter.com/saucelabs\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-9D90FF0D-545D-441E-A917-3B602BFE3C00","ELEMENT":"node-9D90FF0D-545D-441E-A917-3B602BFE3C00"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-9D90FF0D-545D-441E-A917-3B602BFE3C00","ELEMENT":"node-9D90FF0D-545D-441E-A917-3B602BFE3C00"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-9D90FF0D-545D-441E-A917-3B602BFE3C00","ELEMENT":"node-9D90FF0D-545D-441E-A917-3B602BFE3C00"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-9D90FF0D-545D-441E-A917-3B602BFE3C00","ELEMENT":"node-9D90FF0D-545D-441E-A917-3B602BFE3C00"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"a[href=\"https://twitter.com/saucelabs\"]"}
 RESULT: {"using":"css selector","value":"a[href=\"https://twitter.com/saucelabs\"]"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-5E384BE2-5BF0-4F39-ABA9-0E02C62BF77F","ELEMENT":"node-5E384BE2-5BF0-4F39-ABA9-0E02C62BF77F"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-5E384BE2-5BF0-4F39-ABA9-0E02C62BF77F","ELEMENT":"node-5E384BE2-5BF0-4F39-ABA9-0E02C62BF77F"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-5E384BE2-5BF0-4F39-ABA9-0E02C62BF77F","ELEMENT":"node-5E384BE2-5BF0-4F39-ABA9-0E02C62BF77F"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-5E384BE2-5BF0-4F39-ABA9-0E02C62BF77F","ELEMENT":"node-5E384BE2-5BF0-4F39-ABA9-0E02C62BF77F"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-5E384BE2-5BF0-4F39-ABA9-0E02C62BF77F/click - {}
-RESULT: {}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/window/handles - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/window - {"handle":"page-CDA2DB1A-FBA8-4A28-8A23-6B77F8D6D501"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"handle":"page-CDA2DB1A-FBA8-4A28-8A23-6B77F8D6D501"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-RESULT: {}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {}
-]]></system-out>
-    </testcase>
-    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Facebook link should open the correct page" time="0.301">
-      <system-out><![CDATA[
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {"url":"https://www.saucedemo.com/"}
-RESULT: {"url":"https://www.saucedemo.com/"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
-RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
-RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-8C40BFB9-224D-42CD-9B79-DA3182B85D1C","ELEMENT":"node-8C40BFB9-224D-42CD-9B79-DA3182B85D1C"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-8C40BFB9-224D-42CD-9B79-DA3182B85D1C","ELEMENT":"node-8C40BFB9-224D-42CD-9B79-DA3182B85D1C"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-8C40BFB9-224D-42CD-9B79-DA3182B85D1C","ELEMENT":"node-8C40BFB9-224D-42CD-9B79-DA3182B85D1C"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-8C40BFB9-224D-42CD-9B79-DA3182B85D1C","ELEMENT":"node-8C40BFB9-224D-42CD-9B79-DA3182B85D1C"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
-RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-8C40BFB9-224D-42CD-9B79-DA3182B85D1C/clear - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-8C40BFB9-224D-42CD-9B79-DA3182B85D1C/value - {"text":"standard_user"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"text":"standard_user"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#password"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"css selector","value":"#password"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-39CD4884-793E-4BF2-8571-644DD319A564/clear - {}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-39CD4884-793E-4BF2-8571-644DD319A564/value - {"text":"secret_sauce"}
-RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-28268918-E132-4210-BC87-BB4D589263C5","ELEMENT":"node-28268918-E132-4210-BC87-BB4D589263C5"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-28268918-E132-4210-BC87-BB4D589263C5","ELEMENT":"node-28268918-E132-4210-BC87-BB4D589263C5"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-28268918-E132-4210-BC87-BB4D589263C5","ELEMENT":"node-28268918-E132-4210-BC87-BB4D589263C5"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-28268918-E132-4210-BC87-BB4D589263C5","ELEMENT":"node-28268918-E132-4210-BC87-BB4D589263C5"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-28268918-E132-4210-BC87-BB4D589263C5","ELEMENT":"node-28268918-E132-4210-BC87-BB4D589263C5"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-28268918-E132-4210-BC87-BB4D589263C5","ELEMENT":"node-28268918-E132-4210-BC87-BB4D589263C5"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-28268918-E132-4210-BC87-BB4D589263C5/click - {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/window/handles - {}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"a[href=\"https://www.facebook.com/saucelabs\"]"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/elements - {"using":"css selector","value":"a[href=\"https://twitter.com/saucelabs\"]"}
+RESULT: {"using":"css selector","value":"a[href=\"https://twitter.com/saucelabs\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"a[href=\"https://www.facebook.com/saucelabs\"]"}
 RESULT: {"using":"css selector","value":"a[href=\"https://www.facebook.com/saucelabs\"]"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D554F837-BCCD-409E-AB31-E9E5347B2068","ELEMENT":"node-D554F837-BCCD-409E-AB31-E9E5347B2068"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D554F837-BCCD-409E-AB31-E9E5347B2068","ELEMENT":"node-D554F837-BCCD-409E-AB31-E9E5347B2068"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-3016DB62-4AC7-42F9-BD70-2630A47301E3/text - {}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D554F837-BCCD-409E-AB31-E9E5347B2068","ELEMENT":"node-D554F837-BCCD-409E-AB31-E9E5347B2068"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D554F837-BCCD-409E-AB31-E9E5347B2068","ELEMENT":"node-D554F837-BCCD-409E-AB31-E9E5347B2068"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-D554F837-BCCD-409E-AB31-E9E5347B2068/click - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/elements - {"using":"css selector","value":"a[href=\"https://www.facebook.com/saucelabs\"]"}
+RESULT: {"using":"css selector","value":"a[href=\"https://www.facebook.com/saucelabs\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"a[href=\"https://www.linkedin.com/company/sauce-labs/\"]"}
+RESULT: {"using":"css selector","value":"a[href=\"https://www.linkedin.com/company/sauce-labs/\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/elements - {"using":"css selector","value":"a[href=\"https://www.linkedin.com/company/sauce-labs/\"]"}
+RESULT: {"using":"css selector","value":"a[href=\"https://www.linkedin.com/company/sauce-labs/\"]"}
+]]></system-out>
+    </testcase>
+    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Twitter link should open the correct page" time="0.511">
+      <system-out><![CDATA[
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {"url":"https://www.saucedemo.com/"}
+RESULT: {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-97FF3E0A-BFB8-42AB-A6C8-92A73877916C","ELEMENT":"node-97FF3E0A-BFB8-42AB-A6C8-92A73877916C"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-97FF3E0A-BFB8-42AB-A6C8-92A73877916C","ELEMENT":"node-97FF3E0A-BFB8-42AB-A6C8-92A73877916C"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-97FF3E0A-BFB8-42AB-A6C8-92A73877916C","ELEMENT":"node-97FF3E0A-BFB8-42AB-A6C8-92A73877916C"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-97FF3E0A-BFB8-42AB-A6C8-92A73877916C","ELEMENT":"node-97FF3E0A-BFB8-42AB-A6C8-92A73877916C"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-97FF3E0A-BFB8-42AB-A6C8-92A73877916C/clear - {}
 RESULT: {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-97FF3E0A-BFB8-42AB-A6C8-92A73877916C/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+RESULT: {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-296F9E58-3937-499D-97FE-47BF89BD90B3/clear - {}
 RESULT: {}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/window/handles - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-296F9E58-3937-499D-97FE-47BF89BD90B3/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B8FF4274-1780-4519-A963-3AE5B6F20069","ELEMENT":"node-B8FF4274-1780-4519-A963-3AE5B6F20069"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B8FF4274-1780-4519-A963-3AE5B6F20069","ELEMENT":"node-B8FF4274-1780-4519-A963-3AE5B6F20069"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B8FF4274-1780-4519-A963-3AE5B6F20069","ELEMENT":"node-B8FF4274-1780-4519-A963-3AE5B6F20069"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B8FF4274-1780-4519-A963-3AE5B6F20069","ELEMENT":"node-B8FF4274-1780-4519-A963-3AE5B6F20069"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B8FF4274-1780-4519-A963-3AE5B6F20069","ELEMENT":"node-B8FF4274-1780-4519-A963-3AE5B6F20069"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-B8FF4274-1780-4519-A963-3AE5B6F20069","ELEMENT":"node-B8FF4274-1780-4519-A963-3AE5B6F20069"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-B8FF4274-1780-4519-A963-3AE5B6F20069/click - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/window - {"handle":"page-607B079B-610A-4215-A428-1BBF8FD8C8A6"}
-RESULT: {"handle":"page-607B079B-610A-4215-A428-1BBF8FD8C8A6"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"a[href=\"https://twitter.com/saucelabs\"]"}
+RESULT: {"using":"css selector","value":"a[href=\"https://twitter.com/saucelabs\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-E7303D64-F149-41AA-B17F-1285D7016431","ELEMENT":"node-E7303D64-F149-41AA-B17F-1285D7016431"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-E7303D64-F149-41AA-B17F-1285D7016431","ELEMENT":"node-E7303D64-F149-41AA-B17F-1285D7016431"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-E7303D64-F149-41AA-B17F-1285D7016431","ELEMENT":"node-E7303D64-F149-41AA-B17F-1285D7016431"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-E7303D64-F149-41AA-B17F-1285D7016431","ELEMENT":"node-E7303D64-F149-41AA-B17F-1285D7016431"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-E7303D64-F149-41AA-B17F-1285D7016431/click - {}
+RESULT: {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/window - {"handle":"page-48B993E0-4743-4971-8C6C-8DEF87054FA3"}
+RESULT: {"handle":"page-48B993E0-4743-4971-8C6C-8DEF87054FA3"}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {}
+RESULT: {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {}
+RESULT: {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {}
+RESULT: {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The LinkedIn link should open the correct page" time="0.275">
+    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The Facebook link should open the correct page" time="0.381">
       <system-out><![CDATA[
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {"url":"https://www.saucedemo.com/"}
 RESULT: {"url":"https://www.saucedemo.com/"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
 RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-F2C6AF88-B03D-4127-A834-D572120A7C08","ELEMENT":"node-F2C6AF88-B03D-4127-A834-D572120A7C08"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-F2C6AF88-B03D-4127-A834-D572120A7C08","ELEMENT":"node-F2C6AF88-B03D-4127-A834-D572120A7C08"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-3016DB62-4AC7-42F9-BD70-2630A47301E3/text - {}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-F2C6AF88-B03D-4127-A834-D572120A7C08","ELEMENT":"node-F2C6AF88-B03D-4127-A834-D572120A7C08"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-F2C6AF88-B03D-4127-A834-D572120A7C08","ELEMENT":"node-F2C6AF88-B03D-4127-A834-D572120A7C08"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#user-name"}
-RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
 RESULT: {"using":"css selector","value":"#user-name"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-F2C6AF88-B03D-4127-A834-D572120A7C08/clear - {}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D06B1E94-DF3A-4801-9053-D78BDD48FA7C","ELEMENT":"node-D06B1E94-DF3A-4801-9053-D78BDD48FA7C"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D06B1E94-DF3A-4801-9053-D78BDD48FA7C","ELEMENT":"node-D06B1E94-DF3A-4801-9053-D78BDD48FA7C"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D06B1E94-DF3A-4801-9053-D78BDD48FA7C","ELEMENT":"node-D06B1E94-DF3A-4801-9053-D78BDD48FA7C"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-D06B1E94-DF3A-4801-9053-D78BDD48FA7C","ELEMENT":"node-D06B1E94-DF3A-4801-9053-D78BDD48FA7C"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-D06B1E94-DF3A-4801-9053-D78BDD48FA7C/clear - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-F2C6AF88-B03D-4127-A834-D572120A7C08/value - {"text":"standard_user"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-D06B1E94-DF3A-4801-9053-D78BDD48FA7C/value - {"text":"standard_user"}
 RESULT: {"text":"standard_user"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#password"}
-RESULT: {"using":"css selector","value":"#password"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-45AD68E6-3204-4585-A7EB-853A249C1DBE/clear - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+RESULT: {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-43083764-3B64-4289-8537-98A2581EE59F/clear - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-45AD68E6-3204-4585-A7EB-853A249C1DBE/value - {"text":"secret_sauce"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-43083764-3B64-4289-8537-98A2581EE59F/value - {"text":"secret_sauce"}
 RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-3F45B8D7-4C48-42FD-B312-61265C731B21","ELEMENT":"node-3F45B8D7-4C48-42FD-B312-61265C731B21"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-3F45B8D7-4C48-42FD-B312-61265C731B21","ELEMENT":"node-3F45B8D7-4C48-42FD-B312-61265C731B21"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-3F45B8D7-4C48-42FD-B312-61265C731B21","ELEMENT":"node-3F45B8D7-4C48-42FD-B312-61265C731B21"}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-3F45B8D7-4C48-42FD-B312-61265C731B21","ELEMENT":"node-3F45B8D7-4C48-42FD-B312-61265C731B21"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-3F45B8D7-4C48-42FD-B312-61265C731B21","ELEMENT":"node-3F45B8D7-4C48-42FD-B312-61265C731B21"}]}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-3F45B8D7-4C48-42FD-B312-61265C731B21","ELEMENT":"node-3F45B8D7-4C48-42FD-B312-61265C731B21"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"#login-button"}
-RESULT: {"using":"css selector","value":"#login-button"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-3F45B8D7-4C48-42FD-B312-61265C731B21/click - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-68308186-B8A7-47CE-8CE8-226912C59592","ELEMENT":"node-68308186-B8A7-47CE-8CE8-226912C59592"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-68308186-B8A7-47CE-8CE8-226912C59592","ELEMENT":"node-68308186-B8A7-47CE-8CE8-226912C59592"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-68308186-B8A7-47CE-8CE8-226912C59592","ELEMENT":"node-68308186-B8A7-47CE-8CE8-226912C59592"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-68308186-B8A7-47CE-8CE8-226912C59592","ELEMENT":"node-68308186-B8A7-47CE-8CE8-226912C59592"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-68308186-B8A7-47CE-8CE8-226912C59592","ELEMENT":"node-68308186-B8A7-47CE-8CE8-226912C59592"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-68308186-B8A7-47CE-8CE8-226912C59592","ELEMENT":"node-68308186-B8A7-47CE-8CE8-226912C59592"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-68308186-B8A7-47CE-8CE8-226912C59592/click - {}
 RESULT: {}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/window/handles - {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/window/handles - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"css selector","value":"a[href=\"https://www.linkedin.com/company/sauce-labs/\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"a[href=\"https://www.facebook.com/saucelabs\"]"}
+RESULT: {"using":"css selector","value":"a[href=\"https://www.facebook.com/saucelabs\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-345D37AE-3030-4A8A-AD43-73B69382D622","ELEMENT":"node-345D37AE-3030-4A8A-AD43-73B69382D622"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-345D37AE-3030-4A8A-AD43-73B69382D622","ELEMENT":"node-345D37AE-3030-4A8A-AD43-73B69382D622"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-345D37AE-3030-4A8A-AD43-73B69382D622","ELEMENT":"node-345D37AE-3030-4A8A-AD43-73B69382D622"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-345D37AE-3030-4A8A-AD43-73B69382D622","ELEMENT":"node-345D37AE-3030-4A8A-AD43-73B69382D622"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-345D37AE-3030-4A8A-AD43-73B69382D622/click - {}
+RESULT: {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/window - {"handle":"page-54B67665-E3FC-45A0-9EB8-DB8DA00B7200"}
+RESULT: {"handle":"page-54B67665-E3FC-45A0-9EB8-DB8DA00B7200"}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {}
+RESULT: {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="safari.26_3_1.macos.UC-1_Product_Details_Verification.UC-2_Footer_&amp;_Social_Links" name="The LinkedIn link should open the correct page" time="0.24">
+      <system-out><![CDATA[
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {"url":"https://www.saucedemo.com/"}
+RESULT: {"url":"https://www.saucedemo.com/"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-AA9801B5-D211-4390-9FB9-366B79752D4C","ELEMENT":"node-AA9801B5-D211-4390-9FB9-366B79752D4C"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-AA9801B5-D211-4390-9FB9-366B79752D4C","ELEMENT":"node-AA9801B5-D211-4390-9FB9-366B79752D4C"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-AA9801B5-D211-4390-9FB9-366B79752D4C","ELEMENT":"node-AA9801B5-D211-4390-9FB9-366B79752D4C"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-AA9801B5-D211-4390-9FB9-366B79752D4C","ELEMENT":"node-AA9801B5-D211-4390-9FB9-366B79752D4C"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"#user-name"}
+RESULT: {"using":"css selector","value":"#user-name"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-AA9801B5-D211-4390-9FB9-366B79752D4C/clear - {}
+RESULT: {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-AA9801B5-D211-4390-9FB9-366B79752D4C/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+RESULT: {"using":"xpath","value":"//*[@data-test=\"password\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-0D561A57-034C-498E-AB5A-77795565C10F/clear - {}
+RESULT: {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-0D561A57-034C-498E-AB5A-77795565C10F/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-98C85636-367E-4810-847F-2AB36A9CB637","ELEMENT":"node-98C85636-367E-4810-847F-2AB36A9CB637"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-98C85636-367E-4810-847F-2AB36A9CB637","ELEMENT":"node-98C85636-367E-4810-847F-2AB36A9CB637"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-98C85636-367E-4810-847F-2AB36A9CB637","ELEMENT":"node-98C85636-367E-4810-847F-2AB36A9CB637"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-98C85636-367E-4810-847F-2AB36A9CB637","ELEMENT":"node-98C85636-367E-4810-847F-2AB36A9CB637"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-98C85636-367E-4810-847F-2AB36A9CB637","ELEMENT":"node-98C85636-367E-4810-847F-2AB36A9CB637"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-98C85636-367E-4810-847F-2AB36A9CB637","ELEMENT":"node-98C85636-367E-4810-847F-2AB36A9CB637"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+RESULT: {"using":"xpath","value":"//input[@id=\"login-button\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-98C85636-367E-4810-847F-2AB36A9CB637/click - {}
+RESULT: {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element - {"using":"css selector","value":"a[href=\"https://www.linkedin.com/company/sauce-labs/\"]"}
 RESULT: {"using":"css selector","value":"a[href=\"https://www.linkedin.com/company/sauce-labs/\"]"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-C8EA88B5-5897-4A42-A8F6-74EBE5868D97","ELEMENT":"node-C8EA88B5-5897-4A42-A8F6-74EBE5868D97"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-C8EA88B5-5897-4A42-A8F6-74EBE5868D97","ELEMENT":"node-C8EA88B5-5897-4A42-A8F6-74EBE5868D97"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-C8EA88B5-5897-4A42-A8F6-74EBE5868D97","ELEMENT":"node-C8EA88B5-5897-4A42-A8F6-74EBE5868D97"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
-RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-C8EA88B5-5897-4A42-A8F6-74EBE5868D97","ELEMENT":"node-C8EA88B5-5897-4A42-A8F6-74EBE5868D97"}]}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-C8EA88B5-5897-4A42-A8F6-74EBE5868D97/click - {}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-8145FC6A-656A-48F9-9702-15A4C20C7E9B","ELEMENT":"node-8145FC6A-656A-48F9-9702-15A4C20C7E9B"}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-8145FC6A-656A-48F9-9702-15A4C20C7E9B","ELEMENT":"node-8145FC6A-656A-48F9-9702-15A4C20C7E9B"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-8145FC6A-656A-48F9-9702-15A4C20C7E9B","ELEMENT":"node-8145FC6A-656A-48F9-9702-15A4C20C7E9B"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"node-8145FC6A-656A-48F9-9702-15A4C20C7E9B","ELEMENT":"node-8145FC6A-656A-48F9-9702-15A4C20C7E9B"},{"withinViewport":false,"contentVisibilityAuto":true,"opacityProperty":true,"visibilityProperty":true}]}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/element/node-8145FC6A-656A-48F9-9702-15A4C20C7E9B/click - {}
 RESULT: {}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/window/handles - {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/window/handles - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/window - {"handle":"page-35B6E015-B69B-49A2-A61D-1131D9CE3B9C"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"handle":"page-35B6E015-B69B-49A2-A61D-1131D9CE3B9C"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/url - {}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: POST /session/7A6578AB-5036-48DE-AC4F-485352657075/window - {"handle":"page-570D6314-88F0-49DA-BC73-4EEE76B51881"}
+RESULT: {"handle":"page-570D6314-88F0-49DA-BC73-4EEE76B51881"}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {}
 RESULT: {}
-COMMAND: DELETE /session/014925E6-F482-4A63-A67F-E9E4C62F62AB - {}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-COMMAND: GET /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/element/node-3016DB62-4AC7-42F9-BD70-2630A47301E3/text - {}
+COMMAND: GET /session/7A6578AB-5036-48DE-AC4F-485352657075/url - {}
 RESULT: {}
-COMMAND: POST /session/014925E6-F482-4A63-A67F-E9E4C62F62AB/elements - {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
-RESULT: {"using":"xpath","value":"//button[text()=\"Add to cart\"]"}
+COMMAND: DELETE /session/7A6578AB-5036-48DE-AC4F-485352657075 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>

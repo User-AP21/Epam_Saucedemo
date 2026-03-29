@@ -1,0 +1,214 @@
+# SauceDemo Test Automation (WebdriverIO)
+
+This project contains automated UI tests for the Dynamic Content flow on https://www.saucedemo.com/ using WebdriverIO.
+
+---
+
+## 📌 Task Overview
+
+### ✅ UC-1: Product Details Verification
+
+- Login using:
+  - username: `standard_user`
+  - password: `secret_sauce`
+- Select a product dynamically (e.g. "Sauce Labs Fleece Jacket")
+- Navigate to Product Details page
+- Validate:
+  - Product Price matches Inventory page
+  - Product Description matches Inventory page
+- Add product to cart from Details page
+
+---
+
+### ✅ UC-2: Footer & Social Links
+
+- Scroll to footer
+- Verify presence of:
+  - Twitter link
+  - Facebook link
+  - LinkedIn link
+- (Bonus)
+  - Verify each link opens correct URL in a new tab
+
+---
+
+## 🧱 Tech Stack
+
+- WebDriverIO
+- Node.js (JavaScript)
+- Page Object Model (POM)
+- Allure Reporter
+
+---
+
+## 📦 Prerequisites
+
+Make sure you have installed:
+
+- Node.js (v16+)
+- npm
+- Google Chrome
+- Mozilla Firefox
+- Safari (For Mac)
+
+Check versions:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+## 📥 Installation
+
+```bash
+git clone <your-repo-url>
+cd <project-folder>
+npm install
+```
+
+---
+
+## ▶️ Running Tests
+
+### Run all tests (Chrome + Firefox in parallel + additional Safari)
+
+```bash
+npx wdio run ./src/config/wdio.conf.js
+```
+
+---
+
+### Run a specific test
+
+```bash
+npx wdio run ./src/config/wdio.conf.js --spec ./src/tests/specs/inventory.e2e.js
+```
+
+---
+
+### Run in headed mode
+
+```bash
+npx wdio run ./src/config/wdio.conf.js --headed
+```
+
+---
+
+## 📊 Test Report (Allure)
+
+### 1. Run tests
+
+```bash
+npx wdio run ./src/config/wdio.conf.js
+```
+
+### 2. Generate report
+
+```bash
+npx allure generate allure-results --clean
+```
+
+### 3. Open report
+
+```bash
+npx allure open
+```
+
+---
+
+## 🗂️ Project Structure
+
+```
+src/
+  config/
+    wdio.conf.js
+
+  tests/
+    specs/
+      inventory.e2e.js
+
+    pageobjects/
+      pages/
+      components/
+
+screenshots/
+
+allure-results/
+allure-report/
+```
+
+---
+
+## 🎯 Key Implementation Details
+
+### ✔ Page Object Model (POM)
+Each page is separated into reusable classes.
+
+---
+
+### ✔ Dynamic Product Handling
+
+```js
+await inventoryPage.clickProduct('Sauce Labs Fleece Jacket');
+```
+
+---
+
+### ✔ Locators Strategy
+
+- CSS selectors → preferred
+- XPath → dynamic elements
+
+---
+
+### ✔ Logging
+
+```js
+console.log(`Verifying product: ${productName}`);
+```
+
+---
+
+### ✔ Parallel Execution
+
+- Chrome
+- Firefox
+- Safari (Additional)
+
+Configured in wdio.conf.js.
+
+---
+
+## 🧹 Clean Reports
+
+```bash
+rm -rf allure-results allure-report
+```
+
+---
+
+## ⚠️ Troubleshooting
+
+### Allure not found
+
+```bash
+npm install -g allure-commandline
+```
+
+---
+
+## ✅ Notes
+
+- Use it.only for debugging
+- Remove before commit
+- Use waits for stability
+
+---
+
+## 🚀 Bonus
+
+✔ Social links open in new tab  
+✔ URL validation using window handles  
+✔ Reusable Footer component  
